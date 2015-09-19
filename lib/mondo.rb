@@ -1,10 +1,10 @@
 module Mondo
-  require './lib/mondo/version'
-  require './lib/mondo/client'
-  require './lib/mondo/response'
-  require './lib/mondo/resource'
-  require './lib/mondo/errors'
-  require './lib/mondo/utils'
+  require 'mondo/version'
+  require 'mondo/client'
+  require 'mondo/response'
+  require 'mondo/resource'
+  require 'mondo/errors'
+  require 'mondo/utils'
 
-  require './lib/mondo/transaction'
+  require 'mondo/transaction'
 end
